@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "8fed76d21e71b3210ba54fdaff804a77b703e544",
+  "mappingVersion": 1,
+  "treeSha256": "ad63e2bd829c0c569478aea18998bf9b1947a105dbef3dcf2aff14a4b8fabaea",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "c4850984dd5d2cc0beab4ef19a27fd1457ece4ec2662cdd3452970a327f36a98"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "1947e7f178e84f36d2c66b8f654e46f1753f48f3a2536ed32d32620673699423"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "14c783bc44f186d1d5c10b843988fa02b6bd3fa6a3ffe0ec29d662d979484719"
+    },
+    {
+      "path": "bun.lock",
+      "sha256": "ec3d2a51695ec5795f92f94be7b7d2a6f4649b1b7aa7070e6ee612e7adb5183a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "801160711f211666cab496f39445480828b6c60fe1a2cc3ad8ca22629c1cea93"
+    },
+    {
+      "path": "DEFAULT.md",
+      "sha256": "926002e7e5483a36e2ed2bbcdabcb8d6096042de8331bb98f7e9ef60a89a777b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "06038f248c63e8f0f21f3f1508ec0aac8c72b609f82697da0f1cb89e11dbbd6f"
+    },
+    {
+      "path": "package.json",
+      "sha256": "89da3741bb63b0f5c9aa7ccdb9296801bd99f2617e246c9670c5db1a21d5bfaf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "98694188dd43b00d4444dd862f4abdf0ae552f7f74b52f950045b7720bb406fc"
+    },
+    {
+      "path": "scripts/pack-smoke.ts",
+      "sha256": "63874405c972e263aaecb9c1bcc9d90856672c6463c78a0d2c6c9e04cbb46b74"
+    },
+    {
+      "path": "scripts/verify-public-export.ts",
+      "sha256": "ce44410b965aa81ddaa823d59c2e655afb17d8bcd3c3d334f6950d000b9a8e76"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "9d2865e3255f2566dcf5e7cc26da37926e5f6ad7c7103973b49b86c4329548ed"
+    },
+    {
+      "path": "SETUP_PROMPT.md",
+      "sha256": "afb9148892c040cfbfc4f1cf7bb8510e689c6b83ae00e601a7a9d25a4951d5d7"
+    },
+    {
+      "path": "src/assets.ts",
+      "sha256": "3aa60b43454bcda9a5822987dc3fe8908fa24ad9e0d2fbf5968657951a51d6bc"
+    },
+    {
+      "path": "src/check.ts",
+      "sha256": "27dd67a623e04eb8d4a0315725901ded2c317b0016c6ed4e7e1762dc4dda80b9"
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "9ecdae9b6105e4976bd3ece2fa2174552b78817f79ee9c1aba6493efe0239164"
+    },
+    {
+      "path": "src/external.ts",
+      "sha256": "a3095e65eb56e5bf33f8b32e308e53a7c33f0cd6da8e2258635c2337e99aed17"
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "5797092be5fb006d630298a08331b4b56c8bd43addfdf3498fc85731cecc6a2c"
+    },
+    {
+      "path": "src/init.ts",
+      "sha256": "897f48598eaa2992c268a89154721f446cf7ca10aa00b74d27f2e9b6f4987d1f"
+    },
+    {
+      "path": "src/manifest.ts",
+      "sha256": "1a9b0b71f84944f5805075bd2f338331db36e4b872659c30274d14c3a359ed80"
+    },
+    {
+      "path": "src/markdown.ts",
+      "sha256": "19ac7474db894956d281560f9a4aa002b70114b1ae3c1bed04fd1dd5541cad2a"
+    },
+    {
+      "path": "src/paths.ts",
+      "sha256": "27d8fefd85b654203642143587f3f465a8c86d6c58cfbffb3592d64971efdacb"
+    },
+    {
+      "path": "src/scope.ts",
+      "sha256": "6faa070a2cb21bd72edf873c716c6126191addc21da3ebc52a6d05fa451dbf63"
+    },
+    {
+      "path": "src/status.ts",
+      "sha256": "b70429a1af82b5fc3416000351bb33f99d4b98130d234bef3dcff227a18e2e47"
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "a84c19227913fa902724962497f75995763de24e7836a455ba8bdd55b6d16977"
+    },
+    {
+      "path": "tests/assets.test.ts",
+      "sha256": "d48135f07b90acd65221e3cbefcbf99bda1b9fe716e37154f397a8455d420bb9"
+    },
+    {
+      "path": "tests/check.test.ts",
+      "sha256": "9ab78abbb4fb3a1ef57bc686c0861a8446161db34961a7a9c3aa20a5480c5f09"
+    },
+    {
+      "path": "tests/external.test.ts",
+      "sha256": "77d32c90eda588a3a89b501f6b8e1290628c0242e965efb6c6aaadb82eddd8a9"
+    },
+    {
+      "path": "tests/init.test.ts",
+      "sha256": "5bcd0d3e78baf51da933bf6cfa47cea5187e4ce34a88a4013c0ee0b366a8b6c5"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "10d1d49dfce86987fed36d434eacfdf8bc39c4029fc792c11691e9b51c5e5282"
+    },
+    {
+      "path": "tsdown.config.ts",
+      "sha256": "4cf28ffd42fe4a126dbf652b37f36036536be15a88f87aa30b9847d5b7e61caa"
+    }
+  ]
+}
