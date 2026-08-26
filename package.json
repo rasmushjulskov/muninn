@@ -1,0 +1,76 @@
+{
+  "name": "@rasmushjulskov/muninn",
+  "version": "0.1.1",
+  "description": "Portable project knowledge contract validator and initializer",
+  "keywords": [
+    "cli",
+    "documentation",
+    "knowledge",
+    "markdown",
+    "validator"
+  ],
+  "homepage": "https://github.com/rasmushjulskov/muninn#readme",
+  "bugs": {
+    "url": "https://github.com/rasmushjulskov/muninn/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasmushjulskov/muninn.git"
+  },
+  "bin": {
+    "muninn": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "DEFAULT.md",
+    "SETUP_PROMPT.md",
+    "registry.json",
+    "templates"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "lint": "oxlint . --deny-warnings",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "build": "tsdown",
+    "verify:export": "bun scripts/verify-public-export.ts .",
+    "smoke:pack": "bun scripts/pack-smoke.ts",
+    "check": "bun run format:check && bun run lint && bun run typecheck && bun run test && bun run build && bun run smoke:pack",
+    "prepublishOnly": "bun run check"
+  },
+  "dependencies": {
+    "github-slugger": "^2.0.0",
+    "marked": "^18.0.6",
+    "picomatch": "^4.0.5",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/picomatch": "^4.0.3",
+    "oxfmt": "^0.58.0",
+    "oxlint": "^1.73.0",
+    "publint": "^0.3.23",
+    "tsdown": "^0.22.14",
+    "typescript": "~6.0.3"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "packageManager": "bun@1.3.14"
+}
